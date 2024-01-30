@@ -1,0 +1,32 @@
+// Mobile
+@mixin mobile {
+    @media (max-width: 375px) {
+        @content;
+    }
+}
+
+// Desktop
+@mixin desktop {
+    @media (min-width: 1440px) {
+        @content;
+    }
+}
+
+@mixin display-flex($justify: center, $align: center) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+
+@mixin display-flex-column($justify: center, $align: center) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+    flex-direction: column;
+}
+
+
+@mixin button($background-color:$color-light-green, $color:$color-white, $font-size:24px, $height:61px, $width:256px, $border-radius:10px) {
+border-radius: 10px;
+}

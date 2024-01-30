@@ -1,0 +1,27 @@
+
+@use '../base/_typography' as *;
+@use '../abstracts/_variables' as *;
+@use '../abstracts/_mixins' as *;
+
+footer{
+    height: 290px;
+    background-color:$color-light-green;
+    @include display-flex($justify: space-between);
+    padding-left: 39.5px;
+    padding-right: 97px;
+
+
+    img{
+        height: 106px;
+   
+    }
+    h3{
+    font-size: 27px;
+    color: $color-white;
+    }
+
+    p{
+        font-size: 18px;
+        color: $color-white;
+        }
+}

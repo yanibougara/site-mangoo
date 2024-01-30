@@ -1,0 +1,9 @@
+@use '../base/_typography' as *;
+@use '../abstracts/_variables' as *;
+@use '../abstracts/_mixins' as *;
+
+.ChezLesVertsChezLesBleus{
+    background-image: url("images/louis-hansel-MlPD-AzZYMg-unsplash.png");
+    background-size: cover;
+}
+

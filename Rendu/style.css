@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.saladeSurMesure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 148px;
+}
+.saladeSurMesure div {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.saladeSurMesure h2 {
+  font-size: 52px;
+  color: #B2D234;
+}
+.saladeSurMesure p {
+  font-size: 18px;
+  color: #606060;
+}
+.saladeSurMesure button {
+  color: #FFFFFF;
+  background-color: #B2D234;
+  font-size: 24px;
+  height: 61px;
+  width: 256px;
+  border-radius: 10px;
+}
+
+footer {
+  height: 290px;
+  background-color: #B2D234;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 39.5px;
+  padding-right: 97px;
+}
+footer img {
+  height: 106px;
+}
+footer h3 {
+  font-size: 27px;
+  color: #FFFFFF;
+}
+footer p {
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.Preparation {
+  background-image: url("images/ismael-trevino-NDyuR4Huig8-unsplash.png");
+  height: 809px;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 154px;
+}
+
+.preparation1 {
+  padding: 37px 68px 48px;
+  background-color: rgba(178, 210, 52, 0.85);
+  width: 632px;
+  height: 642px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+}
+.preparation1 h2 {
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 52px;
+}
+.preparation1 button {
+  background-color: #FFFFFF;
+  color: #B2D234;
+  border-radius: 10px;
+  height: 61px;
+  width: 256px;
+  border: none;
+}
+.preparation1 p {
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.ChezLesVertsChezLesBleus {
+  background-image: url("images/louis-hansel-MlPD-AzZYMg-unsplash.png");
+  background-size: cover;
+}
+
+/*# sourceMappingURL=style.css.map */
